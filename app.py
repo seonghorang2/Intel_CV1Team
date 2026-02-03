@@ -16,8 +16,8 @@ import onnxruntime as ort
 
 SEQ_LEN = 30
 CONF_TH = 0.65
-MIN_FALL_FRAMES = 3   # 연속 fall 프레임 수
-COOLDOWN_SEC = 5
+MIN_FALL_FRAMES = 30   # 연속 fall 프레임 수
+COOLDOWN_SEC = 10
 
 # 카메라(노트북 웹캠) 고정 정보
 TARGET_GU = "종로구"
